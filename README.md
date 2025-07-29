@@ -27,12 +27,14 @@ This script will only load data, pass it into model and make predictions. For pr
     df=pd.read_csv('../datasets/{your_new_data}.csv')
 
 **Metrics using test dataset(cars_test_data.csv):**
+
     MAE: 0.24189
     MSE: 0.13374
     RMSE: 0.36577
     R2 score: 0.91157
 
 **Metrics using validational dataset(cars_val_data.csv):**
+
     MAE: 0.51396
     MSE: 0.92314
     RMSE: 0.96080
